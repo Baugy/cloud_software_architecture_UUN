@@ -1,0 +1,35 @@
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: url('https://images.unsplash.com/photo-1556911220-bff31c812dba') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Navbar Styling */
+nav {
+  background: #8c6f4f;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Divider Styling */
+.divider {
+  margin: 20px 0;
+  border-width: 2px;
+  border-color: #d1c4b0;
+}
+
